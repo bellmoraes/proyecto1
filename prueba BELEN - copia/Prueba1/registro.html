@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="registro.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark" style="background-color: rgb(27, 56, 110);">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+          <img src="adop-removebg-preview.png" alt="No disponible" width="80px" height="50px">
+            Fundación Adopt me
+          </a>
+          <button class="navbar-toggler" type="button"  data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="principal.html">Inicio</a>  
+                  </li>
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="registro.html">Registro</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link " href="catalogo.html">Catálogo</a>  
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Acerca de
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="Perfil.html">Mi cuenta</a></li> 
+                  <li><a class="dropdown-item" href="animalitos.html">Animalitos en adopcion</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Ayuda</a></li> 
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="¿Que estas buscando?" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+              <button class="global-header-menu_icon global-header-menu_icon-cart" type="submit"><img src="images-removebg-preview.png" alt="Su carrito" width="14px" height="14px"></button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    
+
+      <div class="container">
+        <h1 class="text-center mt-5">Registro de Cliente</h1>
+        <div class="row mt-5">
+            <div class="col-12 col-md-2 offset-md-2">Rut</div>
+            <div class="col-8 col-md-4"><input type="text" class="form-control">  </div>
+            <div class="col-4 col-md-1"><input type="text" class="form-control"></div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-12 col-md-2 offset-md-2">Nombre </div>
+            <div class="col-12 col-md-5"><input type="text" class="form-control"></div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-12 col-md-2 offset-md-2">Apellido </div>
+            <div class="col-12 col-md-5"><input type="text" class="form-control"></div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-12 col-md-2 offset-md-2">Correo electronico </div>
+            <div class="col-12 col-md-5"><input type="text" class="form-control"></div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-12 col-md-2 offset-md-2">Número telefonico </div>
+            <div class="col-12 col-md-5"><input type="text" class="form-control"></div>
+        </div>
+
+        <div class="row mt-3">
+            <select class="col-12 col-md-2 offset-md-2" aria-label="form-control">
+                <option selected>Selecciona tu región</option>
+                <option value="1">Región de Arica y Parinacota</option>
+                <option value="2">Región de Tarapacá</option>
+                <option value="3">Región de Antofagasta</option>
+                <option value="4">Región de Atacama</option>
+                <option value="5">Región Metropolitana</option>
+                <option value="5">Región de Coquimbo</option>
+                <option value="6">Región de Valparaíso</option>
+                <option value="7">Región de O’Higgins</option>
+                <option value="8">Región del Maule</option>
+                <option value="9">Región del Ñuble</option>
+                <option value="10">Región del Biobío</option>
+                <option value="11">Región de La Araucanía</option>
+                <option value="12">Región de Los Ríos</option>
+                <option value="13">Región de Los Lagos</option>
+                <option value="14">Región de Aysén</option>
+                <option value="15">Región de Magallanes</option>
+              </select>
+              <select class="col-12 col-md-2 offset-md-2" aria-label="form-control">
+                <option selected>Nivel Educacional</option>
+                <option value="1">Educación Preescolar</option>
+                <option value="2">Educacion Básica</option>
+                <option value="3">Educacion Media</option>
+                <option value="4">Educacion Superior</option> 
+                <option value="5">Magister</option>
+                <option value="6">Doctorado</option>
+                <option value="7">Profesional</option>
+              </select>
+        </div>
+    
+
+
+        <div class="row mt-5">
+            <div class="col-12 col-md-4 offset-md-4"  aria-label="form-control">
+            
+                <button type="button" class="btn btn-info">Registrar</button>
+                <button type="button" class="btn btn-success">Limpiar</button>
+                <button type="button" class="btn btn-danger">Borrar</button>
+                
+                
+            </div>
+        
+
+
+        </div>
+    
+
+      </div>
+
+        
+
+       
+    
+    
+
+  </body>
+</html>

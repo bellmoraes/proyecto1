@@ -1,0 +1,64 @@
+body
+{
+    background: #000046;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    -webkit-background-size: cover;
+}
+.card
+{
+  height: 500px;
+  width: 450px;
+  margin: 10px;
+  box-shadow: 5px 5px 20px black;
+  overflow: hidden;
+  margin: 10px;
+  
+}
+
+.card-body
+{
+    height: 70px;
+    width: 550px;
+    padding: 6px;
+    box-sizing: border-box;
+    transition: .5s;
+    background: rgba(78, 29, 92, 0.349);
+}
+h5
+{
+    margin: 10px;
+    font-size: 40px;
+}
+p
+{
+    visibility: hidden;
+    opacity: 0;
+}
+.a1
+{
+    margin:20px;
+    font-size: 20px;
+    visibility: hidden;
+    opacity: 0;
+}
+.card:hover
+{
+    cursor: pointer;
+}
+.card:hover .card-body
+{
+    height: 220px;
+}
+.card:hover p
+{
+    opacity: 1;
+    visibility: visible;
+}
+.card:hover a
+{
+    opacity: 1;
+    visibility: visible;
+}
+
